@@ -25,36 +25,36 @@ The **main objective** of this project is to **design** and **manage the databas
 ---
 ### Database Administration Commands
 
-Connect to the MySQL server
+**Connect to the MySQL server**
 ```
 mysql -u root -p
 ```
 
-Create a database
+**Create a database**
 ```
 CREATE DATABASE database_name;
 ```
 
-Create a new user
+**Create a new user**
 ```
 create user 'jenish' indentified by 'password';
 ```
 ![image](https://user-images.githubusercontent.com/35762778/165655429-41223b6f-4ee8-4537-bd77-6d67fbb42e68.png)
 
-Check the default privileges of user
+**Check the default privileges of user**
 ```
 show grants for 'user_name';
 ```
 ![image](https://user-images.githubusercontent.com/35762778/165655537-ad1b6635-7e21-47ca-99d5-35111a679993.png)
 
-Create a tablespace in the batabase
+**Create a tablespace in the database**
 ```
 CREATE TABLESPACE tablespace_name add datafile 'datafile_name.ibd';
 ```
 ![image](https://user-images.githubusercontent.com/35762778/165655623-f081e7ec-c8da-4602-90d9-3c768a6974d1.png)
 ![image](https://user-images.githubusercontent.com/35762778/165655628-ce450ab1-9e26-4cd3-a6fc-9cb19f230d4d.png)
 
-To get the user list of MySQL local instance
+**To get the user list of MySQL local instance**
 ```
 select user from mysql.user
 ```
