@@ -12,8 +12,8 @@ The **main objective** of this project is to **design** and **manage the databas
 
 <details>
 <summary>Documentation of Database design and management</summary>
-  
-  [Document](https://github.com/Nisarg2612/MySQL-Project/blob/main/CS540_Online_Food_Order_Project.pdf)
+   
+  [Database Design Document](https://github.com/Nisarg2612/MySQL-Project/blob/main/CS540_Online_Food_Order_Project.pdf)
 </details>
 
 <details>
